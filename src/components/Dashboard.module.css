@@ -1,0 +1,41 @@
+.root{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 250PX;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #1E1B26;
+    box-shadow: rgb(255 255 255 / 60%) 0px 5px 15px;
+}
+.movie,.movieDetails{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.movieTitle h3{
+  color:white;
+}
+
+.movieTitle p,.movieDetails p{
+  color: #6F6E70;
+}
+.movieDetails h3{
+  color: white;
+}
+
+  img{
+    height: 200px;
+    width: 250PX;
+    border-radius: 5px;
+    box-shadow: rgb(255 255 255 / 40%) 0px 5px 15px !important;
+  }
